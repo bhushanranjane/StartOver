@@ -1,0 +1,57 @@
+{
+  "data": [
+    {
+      "Rice": [
+        {
+          "Name": "Basmati",
+          "Weight": "100",
+          "Prize": "70"
+        },
+        {
+          "Name": "ABC",
+          "Weight": "200",
+          "Prize": "85"
+        },
+        {
+          "Name": "XYZ",
+          "Weight": "150",
+          "Prize": "90"
+        }
+      ],
+      "Wheat": [
+        {
+          "Name": "Pwheat",
+          "Weight": "250",
+          "Prize": "190"
+        },
+        {
+          "Name": "Awheat",
+          "Weight": "750",
+          "Prize": "50"
+        },
+        {
+          "Name": "XYZWheat",
+          "Weight": "150",
+          "Prize": "70"
+        }
+      ],
+      "Pulses": [
+        {
+          "Name": "Dal",
+          "Weight": "250",
+          "Prize": "190"
+        },
+        {
+          "Name": "Matki",
+          "Weight": "750",
+          "Prize": "50"
+        },
+        {
+          "Name": "Moong",
+          "Weight": "150",
+          "Prize": "70"
+        }
+      ]
+    }
+  ]
+}

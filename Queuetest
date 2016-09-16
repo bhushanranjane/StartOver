@@ -1,0 +1,59 @@
+/*
+  file name:Queue.java
+  Created by:Bhushan Ranjane
+  Create Date:-31-08-2016
+  Purpose:To create Queue of customer of Bank   
+*/
+
+package com.Model.Queue;
+
+
+import java.util.Scanner;
+
+	class Queue
+		{
+			int first=0,last;
+			int value;
+
+	public boolean isEmpty(int count)
+		{
+			if(count==0)
+				{
+					System.out.println("Queue is full");
+					return true;
+				}
+			else
+					System.out.println("Queue is not full");
+					return false;
+		}
+
+	//function to Enqueue data 
+	public void enQueue(int value)
+		{
+			
+			if(first==0)
+				{
+					first=value;
+					last=first;
+				}
+			else
+					last=last++;
+				
+		}
+
+	//function to dequeue data
+		public void deQueue()
+			{
+				
+				if(first==0)
+					{
+						System.out.println("Nothing to Remove");
+					
+					}
+				else
+						first--;
+
+			}
+			
+		}
+					

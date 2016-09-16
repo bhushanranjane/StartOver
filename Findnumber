@@ -1,0 +1,17 @@
+ if(ans=="yes")
+              {
+                //if search value found at middle position
+				System.out.println("Value found ");
+                 break;
+ 			  }
+            // search value less the mid of the entered numbers
+            else if(ans=="false")
+              {
+                last=search[mid]-1;
+			  }
+            else if(ans=="true")
+            //search value more the mid value of entered numbers
+            first=search[mid]+1; 
+            }
+            System.out.println("You have entered wrong input");
+

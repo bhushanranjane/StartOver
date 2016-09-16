@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Create Object from JSON String</h2>
+
+<p id="demo"></p>
+
+<script>
+var text = '{"Inventary":[' +
+'{"RiceName":"Basmati","Weight":"100","Prize":"70" },' +
+'{"PulseName":"Moong","Weight":"50","Prize":"85" },' +
+'{"WheatsName":"Wheat","Weight":"78","Prize":"90" }]}';
+
+
+</script>
+
+</body>
+</html>
